@@ -1,0 +1,21 @@
+ticks: 1000 sed 11488
+awaria
+     LinkStateRouter [('avg_time', 12.526096033402922), ('delivery_rate', 0.9968782518210197), ('packets', 961), ('routed', 958)]
+     DistanceVectorRouter [('avg_time', 13.187891440501044), ('delivery_rate', 0.9968782518210197), ('packets', 961), ('routed', 958)]
+     BFS [('avg_time', 46.16754478398314), ('delivery_rate', 0.9875130072840791), ('packets', 961), ('routed', 949)]
+     RandomRouter [('avg_time', 154.20501138952164), ('delivery_rate', 0.45164609053497945), ('packets', 972), ('routed', 439)]
+randomgeographic
+     LinkStateRouter [('avg_time', 1.9767441860465116), ('delivery_rate', 0.04365482233502538), ('packets', 985), ('routed', 43)]
+     DistanceVectorRouter [('avg_time', 1.9767441860465116), ('delivery_rate', 0.04365482233502538), ('packets', 985), ('routed', 43)]
+     BFS [('avg_time', 3.0), ('delivery_rate', 0.04365482233502538), ('packets', 985), ('routed', 43)]
+     RandomRouter [('avg_time', 27.714285714285715), ('delivery_rate', 0.04934541792547835), ('packets', 993), ('routed', 49)]
+hypercube
+     LinkStateRouter [('avg_time', 2.89259645464025), ('delivery_rate', 0.9979188345473465), ('packets', 961), ('routed', 959)]
+     DistanceVectorRouter [('avg_time', 3.011470281543274), ('delivery_rate', 0.9979188345473465), ('packets', 961), ('routed', 959)]
+     BFS [('avg_time', 9.431556948798328), ('delivery_rate', 0.9958376690946931), ('packets', 961), ('routed', 957)]
+     RandomRouter [('avg_time', 35.721560130010836), ('delivery_rate', 0.9515463917525773), ('packets', 970), ('routed', 923)]
+SimpleNetwork
+     LinkStateRouter [('avg_time', 3.531062124248497), ('delivery_rate', 0.998), ('packets', 500), ('routed', 499)]
+     DistanceVectorRouter [('avg_time', 3.8877755511022043), ('delivery_rate', 0.998), ('packets', 500), ('routed', 499)]
+     BFS [('avg_time', 4.995991983967936), ('delivery_rate', 0.998), ('packets', 500), ('routed', 499)]
+     RandomRouter [('avg_time', 19.537525354969574), ('delivery_rate', 0.986), ('packets', 500), ('routed', 493)]

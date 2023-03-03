@@ -1,0 +1,17 @@
+Co zrobic w projekcie
+link_state -jak pojawia sie krawedz to informacja jest rozglaszana po sieci,kazdy ruter buduje pelny graf
+pathstate opcjonalnie- informujemy sie okrawedziach i siasiedzi informuja mnie jakich sciezek beda uzywac
+ogarnac usuwanie,scenariusze
+
+
+
+link_state
+Scenariusze testowe
+o cykl zepsuta krawedz(pojawia sie i znika)
+o hypercube mamy 2^n maszyn oznaczonych bitowo i jak odleglosc edycyjna jest 1 to jest krawedz pomiedzy nimi
+najkrotsze sciezki liniowe od n 
+o geograficzna - plansza router losowa na planszy dwa routery komunikują sie gdy są niedaleko od siebie, punkty moga się poruszac
+
+Uwagi 
+jak krawedz się pojawia albo znika dowiaduja sie o tym koncowki krawedzl, rozsylamy broadcast i on moze sie zacyklic
+broadcastuj tylko raz (id?) id rosnace z czasem 

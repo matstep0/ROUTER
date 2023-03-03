@@ -1,0 +1,21 @@
+ticks: 10000 sed 10498
+awaria
+     LinkStateRouter [('avg_time', 9.656642123820388), ('delivery_rate', 0.9992746113989638), ('packets', 9650), ('routed', 9643)]
+     DistanceVectorRouter [('avg_time', 9.720004148086694), ('delivery_rate', 0.9992746113989638), ('packets', 9650), ('routed', 9643)]
+     BFS [('avg_time', 51.202927133070375), ('delivery_rate', 0.9983419689119171), ('packets', 9650), ('routed', 9634)]
+     RandomRouter [('avg_time', 1477.5831271091113), ('delivery_rate', 0.461338868707836), ('packets', 9635), ('routed', 4445)]
+randomgeographic
+     LinkStateRouter [('avg_time', 1.798804780876494), ('delivery_rate', 0.0507378209015565), ('packets', 9894), ('routed', 502)]
+     DistanceVectorRouter [('avg_time', 1.798804780876494), ('delivery_rate', 0.0507378209015565), ('packets', 9894), ('routed', 502)]
+     BFS [('avg_time', 2.9820717131474104), ('delivery_rate', 0.0507378209015565), ('packets', 9894), ('routed', 502)]
+     RandomRouter [('avg_time', 171.97205588822357), ('delivery_rate', 0.05056519983851433), ('packets', 9908), ('routed', 501)]
+hypercube
+     LinkStateRouter [('avg_time', 2.886113989637306), ('delivery_rate', 1.0), ('packets', 9650), ('routed', 9650)]
+     DistanceVectorRouter [('avg_time', 2.8984455958549225), ('delivery_rate', 1.0), ('packets', 9650), ('routed', 9650)]
+     BFS [('avg_time', 9.529381283034512), ('delivery_rate', 0.9998963730569949), ('packets', 9650), ('routed', 9649)]
+     RandomRouter [('avg_time', 38.16930559867536), ('delivery_rate', 0.9963910084553517), ('packets', 9698), ('routed', 9663)]
+SimpleNetwork
+     LinkStateRouter [('avg_time', 3.4130826165233046), ('delivery_rate', 0.9998), ('packets', 5000), ('routed', 4999)]
+     DistanceVectorRouter [('avg_time', 3.4486897379475896), ('delivery_rate', 0.9998), ('packets', 5000), ('routed', 4999)]
+     BFS [('avg_time', 4.999599919983996), ('delivery_rate', 0.9998), ('packets', 5000), ('routed', 4999)]
+     RandomRouter [('avg_time', 19.125025045081145), ('delivery_rate', 0.9982), ('packets', 5000), ('routed', 4991)]
